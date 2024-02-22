@@ -1,0 +1,25 @@
+#num{
+	width: 600px;
+	height: 600px;
+	background: blue;
+	margin: auto;
+	position: relative;
+}
+#dev nav{
+	top: 100px;
+	background: #ffffff;
+	height: 300px;
+	width: 400px;
+	margin: 10px;left: 100px;
+	overflow: hidden;
+	position: relative;
+}
+#dev img{
+	left: 0px;
+	position: absolute;
+	top: 0;
+	transition: transform 1S ease-in-out;
+}
+#dev nav:hover img{
+	transform: translateY(-600px);
+}
